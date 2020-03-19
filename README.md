@@ -1,5 +1,5 @@
 <a href="https://github.com/jkulba/CayenneService/">
-    <img alt="Cyan Service" src="https://github.com/jkulba/CayenneService/blob/master/Cayenne.png"
+    <img alt="Cyan Service" src="https://github.com/jkulba/CayenneService/blob/master/cayenne.png"
     width=75" height="75">
 </a>
 #A55A56 
