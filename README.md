@@ -1,10 +1,10 @@
-<a href="https://github.com/jkulba/CyanService/">
-    <img alt="Cyan Service" src="https://github.com/jkulba/CyanService/blob/master/Cyan-Square.png"
+<a href="https://github.com/jkulba/CayenneService/">
+    <img alt="Cyan Service" src="https://github.com/jkulba/CayenneService/blob/master/Cayenne.png"
     width=75" height="75">
 </a>
-#00FFFF
+#A55A56 
 
-# Cyan Socket Service
+# Cayenne Socket Service
 > .Net Core 3.1 Hosted Service
 
 A brief description of your project, what it is used for and how does life get
