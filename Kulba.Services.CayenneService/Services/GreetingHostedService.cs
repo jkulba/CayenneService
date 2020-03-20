@@ -22,7 +22,7 @@ namespace Kulba.Services.CayenneService.Services
         public override Task StartAsync(CancellationToken cancellationToken)
         {
             var startTime = DateTimeOffset.Now;
-            _logger.ProgramStarting(startTime, 42);
+            _logger.ProgramStarting(startTime);
             return base.StartAsync(cancellationToken);
         }
 
