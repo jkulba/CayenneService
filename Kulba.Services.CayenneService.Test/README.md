@@ -130,10 +130,3 @@ links to humans using your project. You can include links like:
   - Someone else's project: https://github.com/someones/awesome-project/
 
 
-## Licensing
-
-One really important part: Give your project a proper license. Here you should
-state what the license is and how to find the text version of the license.
-Something like:
-
-"The code in this project is licensed under MIT license."
