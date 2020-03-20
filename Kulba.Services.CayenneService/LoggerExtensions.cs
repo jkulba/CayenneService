@@ -10,7 +10,7 @@ namespace Kulba.Services.CayenneService
 
         static LoggerExtensions()
         {
-            _programStarting = LoggerMessage.Define<DateTimeOffset, int>(LogLevel.Information, 1, "Starting at '{StartTime}' and 0x{Hello:X} is hex of 42");
+            _programStarting = LoggerMessage.Define<DateTimeOffset, int>(LogLevel.Information, 1, "Starting at '{StartTime}'");
             _programStopping = LoggerMessage.Define<DateTimeOffset>(LogLevel.Information, 2, "Stopping at '{StopTime}'");
         }
         public static void ProgramStarting(this ILogger logger, DateTimeOffset startTime, int hello, Exception exception = null)
