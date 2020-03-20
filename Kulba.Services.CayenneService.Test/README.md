@@ -7,8 +7,9 @@
 # Cayenne Socket Service xUnit Project
 > xUnit Test Project for Cayenne Socket Service Project
 
-A brief description of your project, what it is used for and how does life get
-awesome when someone starts to use it.
+The xUnit test project will focus on 2 important features of this project: 
+    a.) Load and test the App Configuration
+    b.) Test the socketserver
 
 ## Installing / Getting started
 
