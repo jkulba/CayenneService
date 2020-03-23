@@ -1,15 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.Extensions.Logging;
+using System;
+using FluentAssertions;
 using Xunit;
+using Xunit.Abstractions;
 
 namespace Kulba.Services.CayenneService.Test
 {
+    
     public class SimpleTest : IDisposable
     {
-        public SimpleTest()
+        private readonly ILogger _logger;
+        private readonly ITestOutputHelper _outputHelper;
+
+        public SimpleTest(ITestOutputHelper outputHelper)
         {
-            Console.WriteLine("Simple Constructor");
+            _outputHelper = outputHelper;
+            _logger = outputHelper.BuildLogger();
         }
 
         public void Dispose()
@@ -17,14 +23,12 @@ namespace Kulba.Services.CayenneService.Test
             Console.WriteLine("Simple Dispose Method");
         }
 
-
         [Fact]
         public void HelloTest()
         {
-            Console.WriteLine("HelloTest Joe");
-
-            var yeah = 2;
-            Assert.Equal(2, yeah);
+            var sut = new SimpleClass(_logger);
+            var actual = sut.ShowMessage();
+            actual.Should().NotBeNullOrWhiteSpace();
         }
 
     }

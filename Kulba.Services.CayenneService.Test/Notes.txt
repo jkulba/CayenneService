@@ -1,0 +1,6 @@
+﻿ILogger for xUnit
+https://www.neovolve.com/2018/06/01/ilogger-for-xunit/
+https://www.nuget.org/packages/Divergic.Logging.Xunit
+
+Fluent Assertions
+https://fluentassertions.com/
